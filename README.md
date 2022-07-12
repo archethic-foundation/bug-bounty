@@ -23,5 +23,5 @@ The Github's labels system allows to follow the progress of the issue:
 
 Some labels prefixed by "p:" could be affected to an issue to precise the area of the issue
 
-Example:
+Example:</br>
 ![Label](assets/label_node.png?v=202207121)
