@@ -1,6 +1,6 @@
 # Archethic Community Bug Bounty Program
 
-![Banner](assets/announcement bug bounty_banner.png?v=20220712)
+![Banner](assets/announcement_bug_bounty_banner.png?v=20220712)
 
 ## Description of the Program
 
@@ -8,7 +8,7 @@ Archethic is a Layer 1 blockchain protocol. We have innovated multiple aspects o
 We are launching this bug bounty program to involve our community in this effort to deploy a truly decentralized ecosystem that is ready for mass adoption. To test and validate the network, we would be launching the code on real mainnet nodes. Unlike other bug bounty programs, our community would be testing the stability and functionality of the real mainnet nodes. This means that even though it is the mainnet, we would be resetting the nodes, if required. Since the tokens are still not migrated to this network there is no risk of loss. The token available on this network would be dummy tokens. Please expect disruption and loss of dummy tokens in case of a reset. Aim is to push the network to achieve the stability and security expected of a large-scale ecosystem.</br></br>
 If you discover a bug, we appreciate your cooperation in responsibly investigating and reporting it to us so that we can address it as soon as possible. Our Bug Bounty Program allows us to recognise and reward members of the community for helping us find and address significant bugs, in accordance with the terms of the Bug Bounty Program set out below.</br>
 
-More informations about bug bounty are available on [Archethic Blog](https://blog.archethic.net/)
+More informations about Archethic Community Bug Bounty Program are available on [Archethic Blog](https://blog.archethic.net/)
 
 ## Issues
 
