@@ -1,6 +1,6 @@
 # Archethic Community Bug Bounty Program
 
-![Banner](assets/announcement_bug_bounty_banner.png?v=20220712)
+![Banner](assets/announcement_bug_bounty_banner.png?v=202207121)
 
 ## Description of the Program
 
@@ -16,7 +16,7 @@ More informations about Archethic Community Bug Bounty Program are available on 
 
 The label system allows to follow the progress of the issue:
 
-![Issue Workflow](assets/Bug_Bounty_WF_Bug.jpg?v=20220712)
+![Issue Workflow](assets/Bug_Bounty_WF_Bug.jpg?v=202207121)
 
 ### Archethic ecosystem
 
