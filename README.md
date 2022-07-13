@@ -9,7 +9,7 @@
 If you discover a bug, we appreciate your cooperation in responsibly investigating and reporting it to us so that we can address it as soon as possible.</br></br>
 **Our Bug Bounty Program allows us to recognise and reward members of the community for helping us find and address significant bugs**, in accordance with the terms of the Bug Bounty Program.</br>
 
-More informations are available on [Archethic Blog](https://blog.archethic.net/)
+More information is available on [Archethic Blog](https://blog.archethic.net/)
 
 ## Issues
 
