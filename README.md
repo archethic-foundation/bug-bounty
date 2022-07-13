@@ -1,6 +1,6 @@
 # Archethic Community Bug Bounty Program
 
-![Banner](assets/announcement_bug_bounty_banner.png?v=202207122)
+![Banner](assets/announcement_bug_bounty_banner.png?v=202207123)
 
 ## Description of the Program
 
