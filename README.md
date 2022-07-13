@@ -17,7 +17,7 @@ More information is available on [Archethic Blog](https://blog.archethic.net/bug
 
 The Github's labels system allows to follow the progress of the issue:
 
-![Issue Workflow](assets/Bug_Bounty_WF_Bug.jpg?v=202207121)
+![Issue Workflow](assets/Bug_Bounty_WF_Bug.jpg?v=202207122)
 
 ### Archethic ecosystem
 
