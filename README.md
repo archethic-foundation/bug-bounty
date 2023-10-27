@@ -1,7 +1,5 @@
 # Archethic Community Bug Bounty Program
 
-![Banner](assets/announcement_bug_bounty_banner.png?v=202207123)
-
 ## Description of the Program
 
 **Archethic is a Layer 1 blockchain protocol**. We have innovated multiple aspects of the blockchain design to achieve scale, security, sustainability, and simplicity without foregoing the core tenet of decentralization. All these innovations have been thoroughly researched and they are now being implemented. Any such innovation takes time due its complexity. Moreover, the absence of similar architecture makes it difficult to assess, benchmark and validate.</br></br>
