@@ -1,7 +1,7 @@
-name: I find a bug in Archethic Ecosystem.
+name: I find a bug in Archethic's Bridge.
 description: You would like to declare a TECHNICAL or FUNCTIONAL issue and/or send to the Archethic team a proposal of fix.
 title: '[Bug]: '
-labels: ['Bug', 'Campaign: Archethic']
+labels: ['Bug', 'Campaign: Bridge']
 body:
   - type: textarea
     id: description
@@ -21,16 +21,28 @@ body:
     id: platform
     attributes:
       label: Platform
-      description: Could you precise the OS (Android, iOS, Web, MacOS, Linux, Windows, ...), the version or which browser you used.
+      description: Could you precise the OS (MacOS, Linux, Windows, ...), the version or which browser you used.
+    validations:
+      required: false
+  - type: input
+    id: archethic_version
+    attributes:
+      label: Version of Archethic's wallet
+      description: 
     validations:
       required: false
   - type: input
     id: version_app
     attributes:
-      label: Version of Archethic apps
+      label: Version of Archethic's Bridge
       description: 
     validations:
       required: false
+  - type: input
+    id: evm_wallet
+    attributes:
+      label: EVM wallet
+      description: (Metamask, TrustWallet, Rabbit, etc.)
   - type: textarea
     id: fix
     attributes:
