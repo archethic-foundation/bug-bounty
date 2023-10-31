@@ -15,7 +15,51 @@ More information is available on [Archethic Blog](https://blog.archethic.net/bug
 
 The Github's labels system allows to follow the progress of the issue:
 
-![Issue Workflow](assets/Bug_Bounty_WF_Bug.jpg?v=202207122)
+```mermaid
+flowchart TD
+    classDef blackBox fill:#000,color:#fff,stroke: transparent
+    classDef bug fill:#d73a4a,color:#fff,stroke: transparent
+    classDef transparent fill:transparent,stroke: transparent
+    classDef pr fill:#0E8A16,color: #fff,stroke: transparent
+    classDef resolved fill:#76C153,color: #fff,stroke: transparent
+    classDef invalid fill:#B60205,color: #fff,stroke: transparent
+    classDef bounty fill:#F8A025,color:#fff,stroke:transparent
+    classDef duplicate fill:#cfd3d7,color:#fff,stroke:transparent
+    classDef campaign fill:#DF498E,stroke:transparent,color:#fff
+
+    Bug(Bug):::bug
+    Triage(In triage):::blackBox
+    Precise(The issue should be more precise ?):::transparent
+    Reproducible(Has preducible steps):::blackBox
+    NeedInfo(Need reproducible information):::blackBox
+    AlreadyExists(The issue already exists ?):::transparent
+    Duplicate(Duplicate):::duplicate
+    NotRight(The issue doesn't seem right ?):::transparent
+    Invalid(Invalid):::invalid
+    BugBounty(Bug Bounty):::bounty
+    WaitingPR(Waiting PR to land - fixed):::pr
+    Resolved(Resolved):::resolved
+
+    Bug --> GlobalCampaign(Global campaign):::campaign
+    Bug --> BridgeCampaign(Bridge campaign):::campaign
+
+    GlobalCampaign --> Triage
+    BridgeCampaign --> Triage
+
+    Triage-->Precise
+    Precise --> | No | Reproducible
+    Precise --> | Yes | NeedInfo
+    NeedInfo --> Reproducible
+    Reproducible --> | No | AlreadyExists
+
+    AlreadyExists --> | No | NotRight
+    AlreadyExists --> | Yes | Duplicate
+    NotRight --> | Yes | Invalid
+    NotRight --> | No | BugBounty
+    
+    BugBounty --> WaitingPR
+    WaitingPR --> Resolved
+```
 
 ### Archethic ecosystem
 
