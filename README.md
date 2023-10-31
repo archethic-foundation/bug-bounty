@@ -50,7 +50,7 @@ flowchart TD
     Precise --> | No | Reproducible
     Precise --> | Yes | NeedInfo
     NeedInfo --> Reproducible
-    Reproducible --> | No | AlreadyExists
+    Reproducible --> AlreadyExists
 
     AlreadyExists --> | No | NotRight
     AlreadyExists --> | Yes | Duplicate
