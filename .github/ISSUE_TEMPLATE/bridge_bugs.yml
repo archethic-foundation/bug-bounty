@@ -14,7 +14,7 @@ body:
     id: proof
     attributes:
       label: Logs / Images
-      description: Include the full logs of the commands you are running between the lines with the backticks below. Or screenshots.
+      description: Include the full logs of the commands you are running between the lines with the backticks below. Or screenshots. You can find some logs in the local history application page -> logs button 
     validations:
       required: false
   - type: input
