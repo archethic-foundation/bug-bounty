@@ -34,8 +34,10 @@ flowchart TD
     NeedInfo(Need reproducible information):::blackBox
     AlreadyExists(The issue already exists ?):::transparent
     Duplicate(Duplicate):::duplicate
-    NotRight(The issue doesn't seem right ?):::transparent
+    NotRight(The issue seems right ?):::transparent
     Invalid(Invalid):::invalid
+    OutOfScope(OutOfScope):::outOfScope
+    InBugBountyScope(The issue is in the scope of bug bounty ?):::transparent
     BugBounty(Bug Bounty):::bounty
     WaitingPR(Waiting PR to land - fixed):::pr
     Resolved(Resolved):::resolved
@@ -54,8 +56,10 @@ flowchart TD
 
     AlreadyExists --> | No | NotRight
     AlreadyExists --> | Yes | Duplicate
-    NotRight --> | Yes | Invalid
-    NotRight --> | No | BugBounty
+    NotRight --> | No | Invalid
+    NotRight --> | Yes | InBugBountyScope
+    InBugBountyScope --> | No | OutOfScope
+    InBugBountyScope --> | Yes | BugBounty
     
     BugBounty --> WaitingPR
     WaitingPR --> Resolved
