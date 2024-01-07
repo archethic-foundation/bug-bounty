@@ -1,4 +1,4 @@
-name: I find a bug in aeBridge.
+name: I find a bug in aeSwap.
 description: You would like to declare a TECHNICAL or FUNCTIONAL issue and/or send to the Archethic team a proposal of fix.
 title: "[Bug]: "
 labels: ["Bug", "Campaign: Bridge"]
@@ -14,7 +14,7 @@ body:
     id: proof
     attributes:
       label: Logs / Images
-      description: Include the full logs of the commands you are running between the lines with the backticks below. Or screenshots. You can find some logs in the local history application page -> logs button
+      description: Include the full logs of the commands you are running between the lines with the backticks below. Or screenshots.
     validations:
       required: false
   - type: input
@@ -34,15 +34,10 @@ body:
   - type: input
     id: version_app
     attributes:
-      label: Version of aeBridge application
+      label: Version of aeSwap application
       description:
     validations:
       required: false
-  - type: input
-    id: evm_wallet
-    attributes:
-      label: EVM wallet
-      description: (Metamask, TrustWallet, Rabbit, etc.)
   - type: textarea
     id: fix
     attributes:
