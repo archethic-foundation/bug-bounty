@@ -1,7 +1,7 @@
 name: I find a bug in aeSwap.
 description: You would like to declare a TECHNICAL or FUNCTIONAL issue and/or send to the Archethic team a proposal of fix.
 title: "[Bug]: "
-labels: ["Bug", "Campaign: Bridge"]
+labels: ["Bug", "Campaign: DEX"]
 body:
   - type: textarea
     id: description
